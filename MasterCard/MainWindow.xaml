@@ -1,0 +1,16 @@
+﻿<Window x:Class="MasterCard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MasterCard"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Grid Canvas.Left="164" Canvas.Top="45" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Ellipse Fill="red" Height="200" Opacity="0.9"  HorizontalAlignment="Left" Canvas.Left="205" VerticalAlignment="Top" Canvas.Top="64" Width="202" />
+            <Ellipse Fill="Orange" Width="202" Height="200" Opacity="0.9" Canvas.Left="334" Canvas.Top="63" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="139,0,0,0" />
+            <TextBox Canvas.Left="213" Canvas.Top="263" HorizontalAlignment="Center" VerticalAlignment="Top" Width="420" Height="97" FontSize="60" FontFamily="Sitka Text" BorderThickness="0,0,0,0" Margin="0,205,0,0">mastercard.</TextBox>
+        </Grid>
+    </Canvas>
+</Window>
